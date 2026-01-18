@@ -116,7 +116,7 @@ const setupSession = (sessionId) => {
         case 'remote':
           clientOptions.webVersionCache = {
             type: 'remote',
-            remotePath: 'https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/' + webVersion + '.html'
+            remotePath: 'https://raw.githubusercontent.com/wppconnect-team/wa-version/refs/heads/main/html/' + webVersion + '.html'
           }
           break
         default:
